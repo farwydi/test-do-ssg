@@ -1,0 +1,9 @@
+name: sample-qwickjs
+static_sites:
+- build_command: qwik build && vite build -c adaptors/static/vite.config.ts
+  environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: farwydi/test-do-ssg
+  name: sample-qwickjs
